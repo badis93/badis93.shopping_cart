@@ -145,6 +145,8 @@ const deletebtn1 = document.querySelectorAll("#delete1");
 
 delete1.addEventListener("click", function () {
    delete1.parentElement.parentElement.remove();
+   countprice ();
+
     });
   
 
@@ -153,6 +155,8 @@ delete1.addEventListener("click", function () {
 
 delete2.addEventListener("click", function () {
    delete2.parentElement.parentElement.remove();
+   countprice ();
+
     });
 
 
@@ -161,6 +165,8 @@ delete2.addEventListener("click", function () {
 
 delete3.addEventListener("click", function () {
    delete3.parentElement.parentElement.remove();
+   countprice ();
+
     });
 
 
